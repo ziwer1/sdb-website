@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sdb-website';
+  title = 'sdb-website in angular';
+  isNavbarCollapsed = true;
 }

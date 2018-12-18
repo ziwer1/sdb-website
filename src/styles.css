@@ -3,5 +3,42 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-body { background-color: blue; }
-.router-outlet {margin-top: -20px;}
+body { background-color: #EAEAEA; }
+.router-outlet {margin-top: -56px;}
+.fa_icon{
+	color: blue;
+	font-size: 5em;
+}
+.section_heading{
+	padding-top: 80px;
+	padding-bottom: 80px
+}
+.card-body > .row {
+	margin-bottom: 20px;
+}
+.full_height{
+	/*height:100vh;*/
+}
+
+.full_width_height{
+	width: 100%;
+	height: 100vh;
+}
+
+.logo_card{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#why-us-row{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+#main_content > .row{
+	padding-bottom: 160px;
+}
+
+.contacts > h5{
+	color: blue;
+}

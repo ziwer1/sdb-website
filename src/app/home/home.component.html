@@ -1,3 +1,201 @@
-<p>
-  home works!
-</p>
+<div id="top" class="full_height">
+<ngb-carousel [showNavigationArrows]="false" [showNavigationIndicators]="true">
+  <ng-template ngbSlide>
+    <img [src]="'../../assets/images/trucks_6_banner.png'" alt="Random slide" class="full_width_height">
+    <div class="carousel-caption">
+      <h3>No mouse navigation</h3>
+      <p>This carousel hides navigation arrows and indicators.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="'../../assets/images/seeds_2_banner.png'" alt="Random slide" class="full_width_height">
+    <div class="carousel-caption">
+      <h3>No mouse navigation</h3>
+      <p>This carousel hides navigation arrows and indicators.</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+</div>
+
+<div id="main_content" class="container-fluid">
+	<h2 id="services" class="text-center section_heading">Products & Services</h2>
+	<div class="row justify-content-around">
+		<div class="col-md-4">
+			<div class="card">
+			  <img class="card-img-top" src="../../assets/images/trucks_3.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Truck Hire</h5>
+			    <p class="card-text">Choose from a fleet of over 30 trucks to transport your goods to destinations in East Africa.</p>
+			  </div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+			  <img class="card-img-top" src="../../assets/images/produce.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Agricultural Produce</h5>
+			    <p class="card-text">We keep a stock of Maize and Beans available for purchase.</p>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	<div class="row" style="background-color:  #007BFF">
+		<div class="col-md">
+			<h2 id="why-us" class="text-center section_heading">Why Us</h2>
+			<div class="row">
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body text-center">
+					    <div class="fa_icon"><fa-icon [icon]="faCoffee"></fa-icon></div>
+					    <br/>
+					    <h2>Cargo Safety</h2>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body text-center">
+					    <div class="fa_icon"><fa-icon [icon]="faShippingFast"></fa-icon></div>
+					    <br/>
+					    <h2>Quick Deliveries</h2>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body text-center">
+					    <div class="fa_icon"><fa-icon [icon]="faMapMarkedAlt"></fa-icon></div>
+					    <br/>
+					    <h2>GPS Tracking</h2>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body text-center">
+					    <div class="fa_icon"><fa-icon [icon]="faLeaf"></fa-icon></div>
+					    <br/>
+					    <h2>Quality Produce</h2>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<h2 id="clients" class="text-center section_heading">Our Clients</h2>
+	<div class="row">
+		<div class="col-md">
+			<div class="row client-cards">
+				<div class="col-md">
+					<img [src]="'../../assets/images/wfp_small.jpg'" alt="Random slide" class="img-fluid rounded">
+				</div>
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body">
+					    <div class="logo_card" style="font-family:impact; color: red">Kabuye Sugar Works Rwanda Ltd</div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md">
+					<img [src]="'../../assets/images/pearl.png'" alt="Random slide" class="img-fluid">
+				</div>
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body">
+					    <div class="logo_card" style="font-family:Arial; color: blue">Kamuru Trading Co. Rwanda Ltd</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body">
+					    <div class="logo_card" style="font-family:bookman; color: gray">Dayreel General Trading Co SS Ltd</div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md">
+					<img [src]="'../../assets/images/aponye.png'" alt="Random slide" class="img-fluid">
+				</div>
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body">
+					    <div class="logo_card" style="font-family:garamond; color: brown">Lukak Stores SS Ltd</div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card">
+					  <div class="card-body">
+					    <div class="logo_card" style="font-family:georgia; color: black">Premier Commodities U Ltd</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	<div id="contacts" class="card border-primary">
+	  <div class="card-body">
+	  	<div class="row">
+	  		<div class="col-md">
+	  			<h2 id="contact" class="text-center section_heading">Contact Us</h2>
+			   <div class="row">
+			   	<div class="col-md">
+			   		<h3>Phone No:</h3>
+					<h5>+256 702 558 078</h5>
+				</div>
+				<div class="col-md">
+			   		<h3>Instant Messaging:</h3>
+					<h5>Whatsapp: +256 702 558 078</h5>
+					<h5>Viber: +256 702 558 078</h5>
+				</div>
+			   </div>
+
+			   <div class="row">
+			   	<div class="col-md">
+			   		<h3>Social Media:</h3>
+					<a href="https://web.facebook.com/sdbinvestmentsugandaltd"><h5 class="blue_text"> Facebook </h5></a>
+				</div>
+				<div class="col-md">
+			   		<h3>Email:</h3>
+					<h5>sbdinvestments@gmail.com</h5>
+				</div>
+			   </div>
+
+			   <div class="row">
+			   	<div class="col-md">
+			   		<h3>Postal Address:</h3>
+					<h5>P.O. BOX 34682</h5>
+					<h5>Kampala, Uganda</h5>
+					<br>
+					<h3>Physical Address:</h3>
+					<h5>Plot no. 590</h5>
+					<h5>Wankulukuku Road</h5>
+					<h5>Nalukolongo, Kampala</h5>
+					<h5>Uganda</h5>
+				</div>
+				<div class="col-md">
+			   		<img [src]="'../../assets/images/sdb_location.png'" class="img-fluid">
+				</div>
+			   </div>
+		   </div>
+	   </div>
+
+	  </div>
+	</div>
+
+
+
+</div>
