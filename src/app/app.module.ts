@@ -10,6 +10,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ProductsServicesComponent } from './products-services/products-services.component';
 import { WhyUsComponent } from './why-us/why-us.component';
 import { ClientsComponent } from './clients/clients.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ClientsComponent } from './clients/clients.component';
     CarouselComponent,
     ProductsServicesComponent,
     WhyUsComponent,
-    ClientsComponent
+    ClientsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
