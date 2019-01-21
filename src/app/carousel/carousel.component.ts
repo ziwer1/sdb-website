@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-carousel',
@@ -14,11 +15,15 @@ import { Component, OnInit } from '@angular/core';
     </ngb-carousel>
     </div>
   `,
-  styles: []
+  styles: [],
+  providers: [NgbCarouselConfig]
 })
 export class CarouselComponent implements OnInit {
 
-  constructor() { }
+  constructor(config: NgbCarouselConfig) {
+
+    config.interval = 15000;
+   }
 
   ngOnInit() {
   }
