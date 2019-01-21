@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ProductsServicesComponent } from './products-services/products-services.component';
 import { WhyUsComponent } from './why-us/why-us.component';
+import { ClientsComponent } from './clients/clients.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { WhyUsComponent } from './why-us/why-us.component';
     HomeComponent,
     CarouselComponent,
     ProductsServicesComponent,
-    WhyUsComponent
+    WhyUsComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,
