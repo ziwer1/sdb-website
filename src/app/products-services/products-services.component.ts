@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-products-services',
   template: `
-    <div class="row">
+    <div class="row parent_row">
       <div class="col-md">
         <h2 id="services" class="text-center section_heading">Products & Services</h2>
       <div class="row justify-content-around">
