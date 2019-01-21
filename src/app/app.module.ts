@@ -11,6 +11,7 @@ import { ProductsServicesComponent } from './products-services/products-services
 import { WhyUsComponent } from './why-us/why-us.component';
 import { ClientsComponent } from './clients/clients.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     ProductsServicesComponent,
     WhyUsComponent,
     ClientsComponent,
-    ContactsComponent
+    ContactsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
