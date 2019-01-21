@@ -40,6 +40,8 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
+  isNavbarCollapsed = true;
+
   ngOnInit() {
   }
 
