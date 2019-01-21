@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ProductsServicesComponent } from './products-services/products-services.component';
+import { WhyUsComponent } from './why-us/why-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CarouselComponent,
-    ProductsServicesComponent
+    ProductsServicesComponent,
+    WhyUsComponent
   ],
   imports: [
     BrowserModule,
