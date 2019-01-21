@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { faShieldAlt, faShippingFast, faMapMarkedAlt, faLeaf } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -8,11 +7,6 @@ import { faShieldAlt, faShippingFast, faMapMarkedAlt, faLeaf } from '@fortawesom
   
 })
 export class HomeComponent implements OnInit {
-
-	  faCoffee = faShieldAlt;
-	  faShippingFast = faShippingFast;
-	  faMapMarkedAlt = faMapMarkedAlt;
-	  faLeaf = faLeaf;
 
   constructor() { }
 

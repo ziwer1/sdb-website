@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faShieldAlt, faShippingFast, faMapMarkedAlt, faLeaf } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-why-us',
@@ -50,6 +51,11 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class WhyUsComponent implements OnInit {
+
+  faCoffee = faShieldAlt;
+  faShippingFast = faShippingFast;
+  faMapMarkedAlt = faMapMarkedAlt;
+  faLeaf = faLeaf;
 
   constructor() { }
 
